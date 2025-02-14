@@ -56,6 +56,15 @@
                 L.DomEvent.off(this.container, event, this.options.events[event], this.container);
             }
         },
+        setContent: function (content) {
+            if (!this.container)
+            {
+                return this;
+            }
+
+            this.container.innerHTML = content;
+            return this;
+        }
     });
 
     L.control.custom = function (options) {

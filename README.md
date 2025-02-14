@@ -108,7 +108,10 @@ position | "topleft", "topright", "bottomleft", "bottomright" | "topright" | map
 | datas | Object | - | wrapper div element's data(s) [MDN HTMLElement.dataset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)
 | events | Object | - | wrapper div element's event(s) and its callbacks
 
-
+## Methods
+Method | Description
+:--- | :---
+setContent(string) | Replaces the control's content with `string`
 
 
 ## License
